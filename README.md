@@ -2,6 +2,13 @@
 # Open Source Workshop
 A hands-on introductory workshop to contributing to open source projects!
 
+## Navigating the Repository
+### README
+Contains all of the knowledge you need to know about the repository before contributing.
+
+### Contributing
+Navigate to the [Contributing](https://github.com/ufosc/Open-Source-Workshop?tab=contributing-ov-file) tab for directions on how to contribute.
+
 ## Prerequisites
 ### Git
 1. Download [Git](https://git-scm.com/install/) onto your device. Ensure you add Git to your PATH.
@@ -14,9 +21,6 @@ git config --global user.email "YourEmail@example.com"
 ### VS Code
 1. Download [VS Code](https://code.visualstudio.com/download?_exp_download=fb315fc982) onto your device.
 2. Login to your GitHub account on VS Code.
-
-### Python
-1. Download the latest version of [Python](https://www.python.org/downloads/) onto your device.
 
 ## Setup
 ### Cloning the Repository
