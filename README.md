@@ -1,45 +1,71 @@
-
 # Open Source Workshop
+
 A hands-on introductory workshop to contributing to open source projects!
 
-## Navigating the Repository
-### README
-Contains all of the knowledge you need to know about the repository before contributing.
+By the end of this workshop you will have forked a repository, made a change on your own branch, and opened your first pull request.
 
-### Contributing
-Navigate to the [Contributing](https://github.com/ufosc/Open-Source-Workshop?tab=contributing-ov-file) tab for directions on how to contribute.
+## Quick Start
+
+1. [Install the prerequisites](#prerequisites)
+2. [Set up your fork](#setup)
+3. Follow [CONTRIBUTING.md](CONTRIBUTING.md) to make your first contribution
 
 ## Prerequisites
+
 ### Git
-1. Download [Git](https://git-scm.com/install/) onto your device. Ensure you add Git to your PATH.
-2. Create a [GitHub](https://github.com/signup) account. Use your personal email.
-3. Open Bash and run these commands:
-```
-git config --global user.name "YourUsername"
-git config --global user.email "YourEmail@example.com"
-```
+
+1. Download and install [Git](https://git-scm.com/install/). Make sure Git is added to your PATH.
+2. Create a [GitHub](https://github.com/signup) account using your personal email.
+3. Open Bash (Git Bash on Windows, Terminal on macOS/Linux) and tell Git who you are:
+
+   ```bash
+   git config --global user.name "YourUsername"
+   git config --global user.email "YourEmail@example.com"
+   ```
+
 ### VS Code
-1. Download [VS Code](https://code.visualstudio.com/download?_exp_download=fb315fc982) onto your device.
-2. Login to your GitHub account on VS Code.
+
+1. Download and install [VS Code](https://code.visualstudio.com/download).
+2. Sign in to your GitHub account in VS Code.
 
 ## Setup
-### Cloning the Repository
-1. [Fork](https://github.com/ufosc/Open-Source-Workshop/fork) this GitHub repository.
-2. Create a directory for GitHub repositories.
-3. Open the directory you created for GitHub repositories in VS Code.
-4. Open the terminal in VS Code.
-5. Clone your forked repository:
-```
-// replace "your-username" with your username
-git clone https://github.com/your-username/Open-Source-Workshop
-```
-6. Navigate to the cloned directory:
-```
-cd Open-Source-Workshop/
-```
-7. Optional: connect the fork to the original repository:
-```
+
+### 1. Fork the repository
+
+[Fork this repository](https://github.com/ufosc/Open-Source-Workshop/fork) to your own GitHub account.
+
+### 2. Clone your fork
+
+1. Create a folder for your GitHub projects.
+2. Open that folder in VS Code.
+3. Open the VS Code terminal.
+4. Clone your fork, replacing `your-username` with your GitHub username:
+
+   ```bash
+   git clone https://github.com/your-username/Open-Source-Workshop
+   ```
+
+5. Move into the cloned folder:
+
+   ```bash
+   cd Open-Source-Workshop/
+   ```
+
+### 3. Connect to the original repository (optional)
+
+Adding an `upstream` remote lets you pull in updates from the original repository later:
+
+```bash
 git remote add upstream https://github.com/ufosc/Open-Source-Workshop.git
-// Verify remote connection
+
+# Verify the connection (you should see both origin and upstream)
 git remote -v
 ```
+
+## Next Steps
+
+You're set up! Head to [CONTRIBUTING.md](CONTRIBUTING.md) to find an issue and open your first pull request.
+
+## License
+
+See the [LICENSE](LICENSE) file for details.
